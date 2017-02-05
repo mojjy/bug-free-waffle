@@ -30,7 +30,7 @@ $ npm test
 
 ## Running End-to-End Tests
 These can be run against dev mode, local mode or live by editing
-[conf.js](conf/protractor.conf.js), they running against phantomjs but
+[conf.js](config/protractor.conf.js), they running against phantomjs but
 can also be run against chrome by editing the same file.
 ```bash
 # make sure you have a running app
