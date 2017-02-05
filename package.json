@@ -27,6 +27,8 @@
     "@types/core-js": "^0.9.34",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "express": "^4.14.1",
+    "gzippo": "^0.2.0",
     "jquery": "^2.2.4",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.1",
