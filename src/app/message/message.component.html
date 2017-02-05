@@ -1,0 +1,32 @@
+<form class="form-horizontal" (ngSubmit)="onSubmit()" #heroForm="ngForm">
+    <fieldset>
+
+        <legend>Leave a message</legend>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="message">message</label>
+            <div class="col-md-4">
+                <textarea class="form-control" id="message" required [(ngModel)]="message.message" name="message">
+                </textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="username">username</label>
+            <div class="col-md-4">
+                <input id="username" name="username" type="text" placeholder=""
+                       class="form-control input-md" required
+                       [(ngModel)]="message.name"
+                >
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="postMessage"></label>
+            <div class="col-md-4">
+                <button type="submit" id="postMessage" name="postMessage" class="btn btn-primary">Post</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>

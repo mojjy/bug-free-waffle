@@ -1,0 +1,12 @@
+<div>
+    <h3>Welcome to fizz buck</h3>
+
+    <!--<pivot></pivot>-->
+    <table ng-if="fizzBuckData">
+        <tr *ngFor="let fizzBuck of fizzBuckData">
+            <td>{{fizzBuck.index}}</td>
+            <td>{{fizzBuck.value}}</td>
+        </tr>
+
+    </table>
+</div>
