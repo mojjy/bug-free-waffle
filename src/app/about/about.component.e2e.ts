@@ -2,7 +2,7 @@
 
 describe('About Page', () => {
     beforeEach(() => {
-        browser.get('/about');
+        browser.get('#/about');
     });
 
     it('should have h3 header', () => {

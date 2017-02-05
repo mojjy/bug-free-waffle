@@ -12,8 +12,15 @@ var reporter = new HtmlScreenshotReporter({
 
 console.log ("setting up tests.");
 
+//dev server
+// 'http://localhost:3000/'
+//local express server
+// var server = 'http://localhost:5000/';
+//live server
+var server = 'https://fizz-buck.herokuapp.com';
+
 exports.config = {
-    baseUrl: 'http://localhost:3000/',
+    baseUrl: server,
 
     specs: [
         helpers.root('src/**/*.e2e.ts')

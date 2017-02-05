@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lint": "tslint \"src/**/*.ts\"",
-    "e2e": "protractor",
+    "e2e": "webdriver-manager update && protractor",
     "start": "gulp serve",
     "build": "gulp build",
     "test": "karma start"
