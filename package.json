@@ -9,7 +9,6 @@
   ],
   "scripts": {
     "lint": "tslint \"src/**/*.ts\"",
-    "postinstall": "webdriver-manager update",
     "e2e": "protractor",
     "start": "gulp serve",
     "build": "gulp build",
