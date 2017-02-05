@@ -36,10 +36,11 @@ exports.config = {
         includeStackTrace: false
     },
 
-    directConnect: true,
+    directConnect: false,
 
     capabilities: {
-        browserName: 'chrome'
+        browserName: 'phantomjs', //chrome
+        'phantomjs.binary.path': require('phantomjs-prebuilt').path
     },
 
     beforeLaunch: function() {
