@@ -11,7 +11,7 @@
     "lint": "tslint \"src/**/*.ts\"",
     "e2e": "webdriver-manager update && protractor",
     "start": "node web.js",
-    "build": "node --max-old-space-size=4096 ./node_modules/gulp/bin/gulp.js build",
+    "build": "node --max-old-space-size=256 ./node_modules/gulp/bin/gulp.js build",
     "test": "karma start",
     "all" : "npm install && npm run build && npm run start"
   },
