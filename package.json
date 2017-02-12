@@ -8,6 +8,7 @@
     "webpack"
   ],
   "scripts": {
+    "postinstall" : "gulp default",
     "lint": "tslint \"src/**/*.ts\"",
     "e2e": "webdriver-manager update && protractor",
     "start": "node web.js",
