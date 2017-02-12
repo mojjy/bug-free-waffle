@@ -11,7 +11,7 @@
     "lint": "tslint \"src/**/*.ts\"",
     "e2e": "webdriver-manager update && protractor",
     "start": "node web.js",
-    "build": "node --max-old-space-size=256 ./node_modules/webpack/bin/webpack.js --config config/webpack.prod.js --progress --colors --profile --bail",
+    "build": "node --max-old-space-size=500 ./node_modules/webpack/bin/webpack.js --config config/webpack.prod.js --progress --colors --profile --bail",
     "test": "karma start",
     "all" : "npm install && npm run build && npm run start"
   },
