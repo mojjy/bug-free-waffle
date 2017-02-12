@@ -12,7 +12,8 @@
     "e2e": "webdriver-manager update && protractor",
     "start": "node web.js",
     "build": "gulp build",
-    "test": "karma start"
+    "test": "karma start",
+    "all" : "npm run build && npm run start"
   },
   "dependencies": {
     "@angular/common": "^2.4.1",
